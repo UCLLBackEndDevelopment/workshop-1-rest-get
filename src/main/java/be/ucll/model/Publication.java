@@ -3,7 +3,7 @@ package be.ucll.model;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Publication {
+public abstract class Publication {
 
     private String title;
     private int pubYear;
