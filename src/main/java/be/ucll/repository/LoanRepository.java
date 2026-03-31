@@ -20,7 +20,7 @@ public class LoanRepository {
                         LocalDate.now().minusDays(22)),
                 new Loan(new UserRepository().getUsers().get(1),
                         List.of(new PublicationRepository().getBooks().get(1)),
-                        LocalDate.now().minusDays(22)),
+                        LocalDate.now().minusDays(5)),
                 new Loan(new UserRepository().getUsers().get(0),
                         List.of(new PublicationRepository().getBooks().get(1)),
                         LocalDate.now().minusDays(22))));
